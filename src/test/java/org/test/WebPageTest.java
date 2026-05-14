@@ -22,7 +22,7 @@ public class WebPageTest {
 
         Thread.sleep(2000);
 
-        driver.get("https://raushankumarbaitha.github.io/VTU-DEV-MVN/");
+        driver.get("https://syed-aquib.github.io/devops2/");
     }
 
     @Test
@@ -32,7 +32,7 @@ public class WebPageTest {
 
         System.out.println(actualTitle);
 
-        String expectedTitle = "Webpage Design";
+        String expectedTitle = "My simple Website";
 
         Assert.assertEquals(actualTitle, expectedTitle);
 
